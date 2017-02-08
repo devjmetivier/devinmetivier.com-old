@@ -1,23 +1,28 @@
 {
-  "name": "devinmetivier-website",
+  "name": "devinmetivier.com",
   "version": "1.0.0",
-  "description": "Devin Metivier Portfolio Site",
+  "description": "Landing Page",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmetivier/devinmetivier-website.git"
+    "url": "git+https://github.com/dmetivier/devinmetivier.com.git"
   },
   "keywords": [
     "Devin",
     "Metivier"
   ],
-  "author": "Devin Metivier",
+  "author": "Devin Metviier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dmetivier/devinmetivier-website/issues"
+    "url": "https://github.com/dmetivier/devinmetivier.com/issues"
   },
-  "homepage": "https://github.com/dmetivier/devinmetivier-website#readme"
+  "homepage": "https://github.com/dmetivier/devinmetivier.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0"
+  }
 }

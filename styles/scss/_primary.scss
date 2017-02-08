@@ -1,0 +1,28 @@
+html, body {
+  height: 100vh;
+  color: #222;
+}
+
+div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 33.3vh;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+}
+
+i {
+  color: #222;
+  margin: 0 40px 0 40px;
+
+  &:hover {
+    color: #000;
+}
+}
