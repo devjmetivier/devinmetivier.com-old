@@ -5,7 +5,7 @@ const scss = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('css', function () {
-    return gulp.src('styles/scss/main.scss')
+    return gulp.src('styles/scss/_pswp.scss')
         .pipe(scss({
             outputStyle: 'compressed'
         }))
